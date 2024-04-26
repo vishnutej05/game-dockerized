@@ -1,0 +1,188 @@
+/* Write your code here. */
+.winLoseCardDiv {
+  padding: 30px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: white;
+  margin: 5px;
+  background-color: #ffffff33;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.winLoseHead {
+  color: white;
+  font-size: 75px;
+}
+
+.winLosePara {
+  color: white;
+  font-size: 50px;
+  margin-left: 40px;
+}
+
+.winLoseScorePara {
+  color: #6a59ff;
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 95px;
+}
+
+.playAgainBtn {
+  background-color: #ffce27;
+  height: 45px;
+  width: 150px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 75px;
+  border: 0;
+  border-radius: 10px;
+  transition: transform 0.1s;
+}
+
+.playAgainBtn:hover {
+  transform: scale(1.2);
+}
+
+.extraMargin1 {
+  margin-left: 90px;
+}
+
+.extraMargin2 {
+  margin-left: 100px;
+}
+
+@media (max-width: 1441px) {
+  .winLoseCardDiv {
+    padding: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    margin: 5px;
+    background-color: #ffffff33;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .winLoseImg {
+    height: 350px;
+  }
+
+  .winLoseHead {
+    color: white;
+    font-size: 50px;
+  }
+
+  .extraMargin1 {
+    margin-left: 30px;
+  }
+
+  .extraMargin2 {
+    margin-left: 48px;
+  }
+
+  .playAgainBtn {
+    background-color: #ffce27;
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 0;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 769px) and (max-height: 653px) {
+  .winLoseCardDiv {
+    padding: 40px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    margin: 5px;
+    background-color: #ffffff33;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 400px; */
+  }
+
+  .winLoseImg {
+    height: 200px;
+  }
+
+  .winLoseHead {
+    margin-left: 15px;
+    color: white;
+    font-size: 30px;
+  }
+
+  .playAgainBtn {
+    background-color: #ffce27;
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    border: 0;
+    border-radius: 10px;
+  }
+
+  .extraMargin1 {
+    margin-left: 5px;
+  }
+
+  .extraMargin2 {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 450px) and (max-height: 950px) {
+  .winLoseCardDiv {
+    padding: 0;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    margin: 0px;
+    background-color: #ffffff33;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 290px;
+  }
+
+  .winLoseImg {
+    height: 180px;
+  }
+
+  .winLoseHead {
+    margin-left: 15px;
+    color: white;
+    font-size: 30px;
+  }
+
+  .playAgainBtn {
+    background-color: #ffce27;
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    border: 0;
+    border-radius: 10px;
+  }
+
+  .extraMargin1 {
+    margin-left: 5px;
+  }
+
+  .extraMargin2 {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,180 @@
+/* Write your code here. */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.gameHead {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 25% 0px 25%;
+}
+
+.total-thing {
+  background-image: linear-gradient(to bottom right, #6a59ff, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+
+.winLoseCard {
+  padding: 50px 200px 0px 200px;
+}
+
+@media (max-width: 1425px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 300px 0px 300px;
+  }
+}
+
+@media (max-width: 1025px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 200px 0px 200px;
+  }
+}
+
+@media (max-width: 769px) and (max-height: 653px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 65px 0px 65px;
+  }
+
+  .gameHead {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .winLoseCard {
+    padding: 50px 100px 0px 100px;
+  }
+}
+
+@media (max-width: 1025px) and (max-height: 1367px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 90px 0px 90px;
+  }
+
+  .gameHead {
+    font-size: 35px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 1181px) and (max-height: 821px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 90px 0px 90px;
+  }
+
+  .gameHead {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 831px) and (max-height: 1181px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px 0px 50px;
+  }
+
+  .gameHead {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+
+  .winLoseCard {
+    padding: 50px 100px 0px 100px;
+  }
+}
+
+@media (max-width: 450px) and (max-height: 950px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 5px 0px 5px;
+  }
+
+  .gameHead {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
+  .winLoseCard {
+    margin-top: 150px;
+    padding: 50px 20px 50px 20px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 380px) and (max-height: 670px) {
+  .gameHead {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
