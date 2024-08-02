@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "emoji-game",
   "private": true,
   "version": "1.0.0",
@@ -25,25 +24,11 @@
     "npm-run-all": "4.1.5",
     "prettier": "2.2.1",
     "react-scripts": "4.0.3"
-=======
-  "name": "game",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
->>>>>>> c5ff32f78d3cd7502061525c84d00d5a76d9f318
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
@@ -78,26 +63,6 @@
       "last 4 versions",
       "Firefox ESR",
       "not ie < 11"
-=======
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
->>>>>>> c5ff32f78d3cd7502061525c84d00d5a76d9f318
     ]
   }
 }
