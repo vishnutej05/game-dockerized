@@ -1,0 +1,74 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #ff7e5f,
+    #feb47b
+  ); /* Gradient background */
+  color: white;
+  text-align: center;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+}
+
+.intro-content {
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.intro-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.start-button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
